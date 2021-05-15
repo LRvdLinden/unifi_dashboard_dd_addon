@@ -118,7 +118,6 @@ Change the next line's
     sensors:
       wifi_vdlinden_count:
         friendly_name: "MAIN SSID" # <- MAIN SSID NAME
-        entity_id: sensor.unifi
         unit_of_measurement: 'devices'
         value_template: "{{ state_attr('sensor.unifi', 'YOUR MAIN SSID') }}"
         icon_template: mdi:wifi
@@ -127,7 +126,6 @@ Change the next line's
     sensors:
       gast_vdlinden_count:
         friendly_name: "GUEST SSID NAME" # <- GUEST SSID NAME
-        entity_id: sensor.unifi
         unit_of_measurement: 'devices'
         value_template: "{{ state_attr('sensor.unifi', 'FILL IN YOUR GUEST SSID') }}"
         icon_template: mdi:wifi
