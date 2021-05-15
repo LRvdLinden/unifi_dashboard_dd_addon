@@ -53,7 +53,7 @@ and customize by <a href="https://github.com/LRvdLinden">Léon van der Linden</a
 ---
 - Manually install the next custom component from https://github.com/RubenDijk/homeassistant
 - Copy the my_unifi to your custom component folder.
-- Copy the file `unifi.yaml`  to your `<config dir>/dwains-dashboard/addons/more_page/ubiquiti` directory.
+- Copy the directory `unifi_dashboard`  to your `<config dir>/dwains-dashboard/addons/more_page/` directory.
 - Configure your `more_page.yaml` file in `<config dir>/dwains-dashboard/configs` with config below.
 - Add unifi controller (Home-Assistant integration)
 - Restart Home Assistant.
@@ -68,7 +68,7 @@ more_page:
     addons:
       - name: Ubiquiti UniFi
         icon: 'mdi:router-network'
-        path: 'dwains-dashboard/addons/more_page/ubiquiti/unifi.yaml'
+        path: 'dwains-dashboard/addons/more_page/unifi_dashboard/unifi.yaml'
 ````
 
 Optional for room addon:
@@ -77,7 +77,7 @@ Optional for room addon:
 addons:
   - name: Ubiquiti UniFi
     icon: mdi:router-wireless
-    path: 'dwains-dashboard/addons/more_page/ubiquiti/unifi.yaml'
+    path: 'dwains-dashboard/addons/more_page/unifi_dashboard/unifi.yaml'
     button_path: 'dwains-dashboard/addons/rooms/hello-room/button.yaml'
     data:
       entity: sensor.unifi_gateway_alerts
