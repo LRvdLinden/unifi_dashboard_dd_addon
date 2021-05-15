@@ -112,19 +112,19 @@ Add the following package to your config [Ubiquiti](https://github.com/RubenDijk
   - platform: template
     sensors:
       wifi_vdlinden_count:
-        friendly_name: "WiFi-vdLinden" # <- SSID NAME
+        friendly_name: "MAIN SSID" # <- MAIN SSID NAME
         entity_id: sensor.unifi
         unit_of_measurement: 'devices'
-        value_template: "{{ state_attr('sensor.unifi', 'WiFi-vdLinden') }}"
+        value_template: "{{ state_attr('sensor.unifi', 'YOUR MAIN SSID') }}"
         icon_template: mdi:wifi
 
   - platform: template
     sensors:
       gast_vdlinden_count:
-        friendly_name: "SSID NAME" # <- SSID NAME
+        friendly_name: "GUEST SSID NAME" # <- GUEST SSID NAME
         entity_id: sensor.unifi
         unit_of_measurement: 'devices'
-        value_template: "{{ state_attr('sensor.unifi', '#FILL IN YOUR GEUST SSID') }}"
+        value_template: "{{ state_attr('sensor.unifi', 'FILL IN YOUR GUEST SSID') }}"
         icon_template: mdi:wifi
 ```
 
