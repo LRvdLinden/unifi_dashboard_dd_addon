@@ -363,9 +363,6 @@
             - entity: sensor.unifi_gateway_wan_ip
               icon: mdi:shield-outline
               name: IP Address
-            - entity: binary_sensor.ping_google_dns
-              name: Google DNS
-              icon: mdi:google
             - entity: sensor.unifi_gateway_wan
               name: Gateways
               type: custom:multiple-entity-row
