@@ -71,7 +71,7 @@ more_page:
         path: 'dwains-dashboard/addons/more_page/unifi_dashboard/unifi.yaml'
 ````
 
-Optional for room addon:
+### Optional for room addon:
 
 ````yaml
 addons:
@@ -103,6 +103,31 @@ Add the following package to your config [Ubiquiti](https://github.com/RubenDijk
 - Nr.158      ip adres controller
 
 - Nr.63       ip adres of the controller (unifi.yaml)
+
+## WiFi SSID sensors
+- copy the this line and place it in your template.yaml or sensor.yaml
+- Fill in your main SSID and your GUEST SSID
+
+```yaml
+  - platform: template
+    sensors:
+      wifi_vdlinden_count:
+        friendly_name: "WiFi-vdLinden" # <- SSID NAME
+        entity_id: sensor.unifi
+        unit_of_measurement: 'devices'
+        value_template: "{{ state_attr('sensor.unifi', 'WiFi-vdLinden') }}"
+        icon_template: mdi:wifi
+
+  - platform: template
+    sensors:
+      gast_vdlinden_count:
+        friendly_name: "SSID NAME" # <- SSID NAME
+        entity_id: sensor.unifi
+        unit_of_measurement: 'devices'
+        value_template: "{{ state_attr('sensor.unifi', '#FILL IN YOUR GEUST SSID') }}"
+        icon_template: mdi:wifi
+```
+
 
 
 ## Result
