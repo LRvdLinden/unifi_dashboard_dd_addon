@@ -1,7 +1,7 @@
 ---
 #
-# Ubiquiti UniFi 1.0.2 more_page.
-# Made by Ruben Dijk.
+# Ubiquiti UniFi 1.0.3 more_page.
+# Made by Ruben Dijk. customize by LRvdLinden
 - type: custom:vertical-stack-in-card
   style: |
     ha-card {
