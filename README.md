@@ -87,23 +87,27 @@ Add the following package to your config [Ubiquiti](https://github.com/RubenDijk
 ## Replace the following
 ---
 Change the next line's
-| Line | Fill in | 
-|------|:--------------:|
-| Nr.8 | ip adres switch |
-| Nr.22 | ip adres switch |
-| Nr.27 | ip adres switch |
-| Nr.32 | ip adres ap |
-| Nr.46 | ip adres ap | 
-| Nr.51 | ip adres ap |
-| Nr.138 | ip adres controller |
-| Nr.139 | Site-id (optional) |
-| Nr.140 | username |
-| Nr.141 | password or secret |
-| Nr.155 | Site-id (optional) |
-| Nr.156  | username |
-| Nr.157 | password or secret |
-| Nr.158 | ip adres controller |
-| Nr.63 | ip adres of the controller (unifi.yaml) |
+| Line | Fill in | File |
+|------|:--------------:|:------------ |
+| Nr.8 | ip adres switch | sensor_ubiquiti.yaml |
+| Nr.22 | ip adres switch | sensor_ubiquiti.yaml |
+| Nr.27 | ip adres switch | Usensor_ubiquiti.yaml |
+| Nr.32 | ip adres ap | sensor_ubiquiti.yaml |
+| Nr.46 | ip adres ap | sensor_ubiquiti.yaml |
+| Nr.51 | ip adres ap | sensor_ubiquiti.yaml |
+| Nr.138 | ip adres controller | sensor_ubiquiti.yaml |
+| Nr.139 | Site-id (optional) | Usensor_ubiquiti.yaml |
+| Nr.140 | username | sensor_ubiquiti.yaml |
+| Nr.141 | password or secret | sensor_ubiquiti.yaml |
+| Nr.155 | Site-id (optional) | sensor_ubiquiti.yaml |
+| Nr.156  | username | sensor_ubiquiti.yaml |
+| Nr.157 | password or secret | sensor_ubiquiti.yaml |
+| Nr.158 | ip adres controller | sensor_ubiquiti.yaml |
+| Nr.63 | ip adres of the controller | /unifi_dashboard/unifi.yaml |
+| Nr.289 | correct entity | /unifi_dashboard/unifi.yaml |
+| Nr.290| correct name | /unifi_dashboard/unifi.yaml |
+| Nr.311 | correct entity | /unifi_dashboard/unifi.yaml |
+| Nr.312| correct name | /unifi_dashboard/unifi.yaml |
 
 ## WiFi SSID sensors
 - Copy the this line and place it in your template.yaml or sensor.yaml
