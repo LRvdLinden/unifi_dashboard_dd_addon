@@ -87,7 +87,7 @@ Add the following package to your config [Ubiquiti](https://github.com/RubenDijk
 ## Replace the following
 ---
 Change the next line's
-| Line | Fill in | File |
+| Line | Fill in | directory/file |
 |------|:--------------:|:------------ |
 | Nr.8 | ip adres switch | sensor_ubiquiti.yaml |
 | Nr.22 | ip adres switch | sensor_ubiquiti.yaml |
