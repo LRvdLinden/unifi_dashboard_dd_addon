@@ -28,7 +28,7 @@ and customize by <a href="https://github.com/LRvdLinden">Léon van der Linden</a
 
 
 <p align="center">
-  <img src="https://user-images.githubusercontent.com/77990847/118371039-e66e7b00-b5aa-11eb-9d60-64015622c288.png)" />
+  <img src="https://user-images.githubusercontent.com/77990847/118371039-e66e7b00-b5aa-11eb-9d60-64015622c288.png" />
 </p>
 
 
