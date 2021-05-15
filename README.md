@@ -86,26 +86,27 @@ Add the following package to your config [Ubiquiti](https://github.com/RubenDijk
 
 ## Replace the following
 ---
-- Change the next line's
-- Nr.8        ip adres switch
-- Nr.22       ip adres switch
-- Nr.27       ip adres switch
-- Nr.32       ip adres ap
-- Nr.46       ip adres ap
-- Nr.51       ip adres ap
-- Nr.138      ip adres controller
-- Nr.139      Site-id (optional)
-- Nr.140      username
-- Nr.141      password or secret
-- Nr.155      Site-id (optional)
-- Nr.156      username
-- Nr.157      password or secret
-- Nr.158      ip adres controller
-
-- Nr.63       ip adres of the controller (unifi.yaml)
+Change the next line's
+| Line | Fill in | 
+|------|:--------------:|
+| Nr.8 | ip adres switch |
+| Nr.22 | ip adres switch |
+| Nr.27 | ip adres switch |
+| Nr.32 | ip adres ap |
+| Nr.46 | ip adres ap | 
+| Nr.51 | ip adres ap |
+| Nr.138 | ip adres controller |
+| Nr.139 | Site-id (optional) |
+| Nr.140 | username |
+| Nr.141 | password or secret |
+| Nr.155 | Site-id (optional) |
+| Nr.156  | username |
+| Nr.157 | password or secret |
+| Nr.158 | ip adres controller |
+| Nr.63 | ip adres of the controller (unifi.yaml) |
 
 ## WiFi SSID sensors
-- copy the this line and place it in your template.yaml or sensor.yaml
+- Copy the this line and place it in your template.yaml or sensor.yaml
 - Fill in your main SSID and your GUEST SSID
 
 ```yaml
