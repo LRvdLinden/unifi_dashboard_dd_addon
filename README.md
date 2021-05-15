@@ -22,7 +22,8 @@
 <p align="center">Unifi Dashboard in Home Assistant Dwains Dashboard.</p>
 
 
-<p align="center">Created by [Ruben Dijk](https://github.com/RubenDijk/dwains-theme-addons/tree/master/more_page/ubiquiti) and customize by<a href="https://github.com/LRvdLinden">Léon van der Linden</a>
+<p align="center">Created by <a href="https://github.com/RubenDijk/dwains-theme-addons/tree/master/more_page/ubiquiti">Ruben Dijk</a>
+and customize by <a href="https://github.com/LRvdLinden">Léon van der Linden</a>
 </p> 
 
 
