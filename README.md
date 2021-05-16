@@ -136,7 +136,10 @@ Change the next line's
 ## Result
 ---
 
-![mockup-of-two-iphones-12-pro-max-with-a-plain-background-5014-el1](https://user-images.githubusercontent.com/77990847/118410213-9ff24c80-b68e-11eb-9932-abae44e2eae0.png)
+![mockup-of-two-iphones-12-pro-max-with-a-plain-background-5014-el1]()
+
+| ----------- | ----------  | 
+| ![Dwains Light Theme](https://user-images.githubusercontent.com/77990847/118010920-bf683d00-b34f-11eb-8f6d-776989c05a2f.png) | ![Dwains Dark Theme](https://user-images.githubusercontent.com/77990847/118410213-9ff24c80-b68e-11eb-9932-abae44e2eae0.png) | 
 
 ![simple-ipad-pro-mockup-23619](https://user-images.githubusercontent.com/77990847/118374128-bdee7d00-b5ba-11eb-80c4-e1964970735f.png)
 
