@@ -91,12 +91,12 @@ Change the next line's
 |------|:--------------:|:------------ |
 | Nr.8 | ip adres switch | sensor_ubiquiti.yaml |
 | Nr.22 | ip adres switch | sensor_ubiquiti.yaml |
-| Nr.27 | ip adres switch | Usensor_ubiquiti.yaml |
+| Nr.27 | ip adres switch | sensor_ubiquiti.yaml |
 | Nr.32 | ip adres ap | sensor_ubiquiti.yaml |
 | Nr.46 | ip adres ap | sensor_ubiquiti.yaml |
 | Nr.51 | ip adres ap | sensor_ubiquiti.yaml |
 | Nr.138 | ip adres controller | sensor_ubiquiti.yaml |
-| Nr.139 | Site-id (optional) | Usensor_ubiquiti.yaml |
+| Nr.139 | Site-id (optional) | sensor_ubiquiti.yaml |
 | Nr.140 | username | sensor_ubiquiti.yaml |
 | Nr.141 | password or secret | sensor_ubiquiti.yaml |
 | Nr.155 | Site-id (optional) | sensor_ubiquiti.yaml |
