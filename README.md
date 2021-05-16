@@ -136,6 +136,8 @@ Change the next line's
 ## Result
 ---
 
+![simple-ipad-pro-mockup-23619](https://user-images.githubusercontent.com/77990847/118374128-bdee7d00-b5ba-11eb-80c4-e1964970735f.png)
+
 ![simple-ipad-pro-mockup-23619](https://user-images.githubusercontent.com/77990847/118371270-23873d00-b5ac-11eb-86d0-603b152b6a09.png)
 
 
@@ -145,7 +147,6 @@ Enjoy my card? Help me out for a couple of :beers: or a :coffee:!
 
 [![coffee](https://www.buymeacoffee.com/assets/img/custom_images/black_img.png)](https://www.buymeacoffee.com/LRvdLinden)
 
-![simple-ipad-pro-mockup-23619](https://user-images.githubusercontent.com/77990847/118374128-bdee7d00-b5ba-11eb-80c4-e1964970735f.png)
 
 
 
