@@ -23,7 +23,7 @@
 
 
 <p align="center">Created by <a href="https://github.com/RubenDijk/dwains-theme-addons/tree/master/more_page/ubiquiti">Ruben Dijk</a>
-and customize by <a href="https://github.com/LRvdLinden">Léon van der Linden</a>
+and little customize by <a href="https://github.com/LRvdLinden">Léon van der Linden</a>
 </p> 
 
 
